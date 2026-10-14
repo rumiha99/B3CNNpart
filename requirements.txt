@@ -1,0 +1,4 @@
+# Install matching torch / torchvision builds first; see README.md.
+matplotlib>=3.7
+jupyterlab>=4
+ipykernel>=6
