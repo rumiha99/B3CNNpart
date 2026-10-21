@@ -1,5 +1,0 @@
-# Install matching torch / torchvision builds first; see README.md.
--r requirements.txt
-pandas>=1.5
-scikit-learn>=1.2
-Pillow>=9

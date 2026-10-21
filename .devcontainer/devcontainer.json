@@ -1,0 +1,23 @@
+{
+  "name": "B3CNNpart (PyTorch GPU)",
+  "dockerComposeFile": [
+    "../docker/docker-compose.yml",
+    "../docker/docker-compose.gpu.yml"
+  ],
+  "service": "notebook",
+  "workspaceFolder": "/workspace/B3CNNpart",
+  "remoteUser": "student",
+  "updateRemoteUserUID": true,
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python"
+      }
+    }
+  }
+}

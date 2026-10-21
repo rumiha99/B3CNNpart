@@ -1,3 +1,0 @@
-# Additional dependency for MNIST_CNN_short.py only.
--r requirements.txt
-timm==1.0.24

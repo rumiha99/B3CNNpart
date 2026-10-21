@@ -1,0 +1,17 @@
+name: b3cnnpart
+
+services:
+  notebook:
+    image: b3cnnpart:latest
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        LOCAL_UID: ${LOCAL_UID:-1001}
+        LOCAL_GID: ${LOCAL_GID:-1001}
+    init: true
+    working_dir: /workspace/B3CNNpart
+    volumes:
+      - ..:/workspace/B3CNNpart
+    shm_size: "2gb"
+    command: ["sleep", "infinity"]

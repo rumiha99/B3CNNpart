@@ -3,3 +3,10 @@
 __pycache__/
 data/
 outputs/
+
+# Local Kaggle submission tools and credentials
+/cassava_late_submission.py
+/README-late-submission.md
+/.kaggle/
+/kaggle.json
+/outputs

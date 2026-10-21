@@ -1,0 +1,6 @@
+*
+!requirements.txt
+!docker/
+docker/*
+!docker/Dockerfile
+!docker/smoke_test.py
